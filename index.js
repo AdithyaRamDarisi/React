@@ -36,3 +36,36 @@
 // Why VITE is Used?
 // Before Vite, developers often used tools like Create React App (CRA) or Webpack. As projects grew, 
 // starting the development server and rebuilding the application became slower.
+
+// Steps to import and export components
+// Step 1: We should create a folder in src as (components)
+// step 2: create a file as (component1.jsx)
+// 3.first we should import react then create a function as follows..
+// 4. import React from "react";
+// function ComponentOne() {
+//     return(
+//         <h1>Hello Adithya</h1>
+//     )
+// }
+// export default ComponentOne; 5.should export the function name(ComponentOne)
+// 6. head to app.jsx and import componentone
+// 7. and give a tag of componentone as follws <ComponentOne/>
+
+
+// What is JSX?
+// JSX (JavaScript XML) is a syntax extension for JavaScript that 
+// lets you write HTML-like code inside JavaScript. 
+// React uses JSX to describe what the UI should look like.
+
+// What is virtual DOM and DOM
+// DOM :The DOM is the browser's tree-like representation of an HTML document that JavaScript can manipulate.
+// Virtual DOM:The Virtual DOM is a lightweight copy of the real DOM that React uses to efficiently update only the changed parts of the UI.
+// *React update the virtual DOM first and find the changes,
+// and updates only what changes needed in the real DOM
+// This makes the app faster and more efficient.
+
+
+
+// What are Props (Properties)?
+//  Props (Properties) are read-only inputs used to pass data from a parent component 
+// to a child component in React.
