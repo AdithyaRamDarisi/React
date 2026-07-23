@@ -69,3 +69,24 @@
 // What are Props (Properties)?
 //  Props (Properties) are read-only inputs used to pass data from a parent component 
 // to a child component in React.
+
+// Components:A component is a JavaScript function (or class) that returns JSX (HTML-like syntax).
+// Two Types of Components
+// 1.Functional Components
+// These are simple JavaScript functions that return JSX.
+// 2.Class Components
+// These are ES6 classes that extend React.Component using the render method to return jsx
+
+// Export and ways of export
+// Export are two ways default export and named export
+// We can export default only once and named export number of times.
+
+// StrictMode :
+// StrictMode is a React development feature that wraps 
+// components to perform additional checks and warnings. 
+
+// Fragments:A Fragment in React is a special wrapper that lets you group multiple JSX elements 
+// without adding an extra HTML element
+
+
+// 
