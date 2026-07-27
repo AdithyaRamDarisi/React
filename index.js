@@ -89,4 +89,20 @@
 // without adding an extra HTML element
 
 
-// 
+// props:Props (short for Properties) are used to pass data from a parent component to a child component.
+// state:State is used to store and manage data inside a component. When the state changes, 
+// React automatically re-renders the component to reflect the updated data.
+
+// Lists:A list is a collection of items that you want to display on the screen. 
+// In React, lists are usually rendered using the JavaScript map() method.
+
+// Key:Key is used to identify each element in a list
+// Map:map() is an array method that is used to iterate over each element of an array and create a new array.
+
+// Hooks:Hooks are built in special functions that let you use state and other react features in functional components.
+// Most Used Hooks in react.
+// 1.useState():useState is a React Hook that allows a functional component to store and update state.
+// 2.useEffect():useEffect lets us to run code after some component renders
+// usEffect : useEffect is a React Hook used to perform side effects in functional components, such as API calls, timers, event listeners, 
+// or updating the document title.
+// 3.useRef():
