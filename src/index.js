@@ -70,7 +70,12 @@
 //  Props (Properties) are read-only inputs used to pass data from a parent component 
 // to a child component in React.
 
-// Components:A component is a JavaScript function (or class) that returns JSX (HTML-like syntax).
+// Components:Components 
+// Component is a small building block of a web page
+// components make our code cleaner,reusable and easy to manage
+// in components we write code using javascript and html like code called JSX
+// A component is a JavaScript function (or class) that returns JSX (HTML-like syntax).
+
 // Two Types of Components
 // 1.Functional Components
 // These are simple JavaScript functions that return JSX.
@@ -106,3 +111,14 @@
 // usEffect : useEffect is a React Hook used to perform side effects in functional components, such as API calls, timers, event listeners, 
 // or updating the document title.
 // 3.useRef():
+
+// Two Way Binding :Two-way binding is a pattern where the UI and the component state stay synchronized. 
+// The input field updates the state using onChange, and the state controls the input using the value prop. 
+// This ensures that any change in the input updates the state, 
+// and any change in the state is reflected back in the UI.
+
+// Nested Components:
+// A nested component is a component that is rendered inside another component. 
+// It helps organize the UI into smaller, reusable pieces,
+//  making the application easier to maintain and reuse.
+
