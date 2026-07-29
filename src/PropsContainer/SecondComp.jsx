@@ -7,4 +7,4 @@ const SecondComp = (props) => {
   )
 }
 
-export default SecondComp
+export default SecondComp;

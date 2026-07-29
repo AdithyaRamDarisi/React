@@ -122,3 +122,25 @@
 // It helps organize the UI into smaller, reusable pieces,
 //  making the application easier to maintain and reuse.
 
+// props:Props (short for Properties) are used to pass data from a parent component to a child component.
+// state:State is used to store and manage data inside a component. When the state changes,
+// React automatically re-renders the component to reflect the updated data.
+
+// Props Destructuring:Props destructuring means taking the required values directly from 
+// the props object instead of repeatedly writing props.value.
+
+// StateManagement:State management in React means storing and managing data that can
+//  change over time in your application.
+
+// UseState():useState is a React Hook used to create and manage state (data that can change)
+//  inside a functional component.
+// Syntax for useState : const[state,setState]=useState()
+
+// UseEffect:useEffect is a React Hook used to perform side effects in a component.
+// Such as
+// Fetching data from an API
+// Updating the document title
+// Using setInterval / setTimeout
+// Adding event listeners
+// Working with browser APIs
+// Running code when a component loads or when state changes
