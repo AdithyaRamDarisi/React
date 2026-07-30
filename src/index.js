@@ -112,7 +112,8 @@
 // or updating the document title.
 // 3.useRef():
 
-// Two Way Binding :Two-way binding is a pattern where the UI and the component state stay synchronized. 
+// Two Way Binding :
+// Two-way binding is a pattern where the UI and the component state stay synchronized. 
 // The input field updates the state using onChange, and the state controls the input using the value prop. 
 // This ensures that any change in the input updates the state, 
 // and any change in the state is reflected back in the UI.
@@ -122,21 +123,27 @@
 // It helps organize the UI into smaller, reusable pieces,
 //  making the application easier to maintain and reuse.
 
-// props:Props (short for Properties) are used to pass data from a parent component to a child component.
-// state:State is used to store and manage data inside a component. When the state changes,
+// props:
+// Props (short for Properties) are used to pass data from a parent component to a child component.
+// state:
+// State is used to store and manage data inside a component. When the state changes,
 // React automatically re-renders the component to reflect the updated data.
 
-// Props Destructuring:Props destructuring means taking the required values directly from 
+// Props Destructuring:
+// Props destructuring means taking the required values directly from 
 // the props object instead of repeatedly writing props.value.
 
-// StateManagement:State management in React means storing and managing data that can
+// StateManagement:
+// State management in React means storing and managing data that can
 //  change over time in your application.
 
-// UseState():useState is a React Hook used to create and manage state (data that can change)
+// UseState():
+// useState is a React Hook used to create and manage state (data that can change)
 //  inside a functional component.
 // Syntax for useState : const[state,setState]=useState()
 
-// UseEffect:useEffect is a React Hook used to perform side effects in a component.
+// UseEffect:
+// useEffect is a React Hook used to perform side effects in a component.
 // Such as
 // Fetching data from an API
 // Updating the document title
@@ -144,3 +151,10 @@
 // Adding event listeners
 // Working with browser APIs
 // Running code when a component loads or when state changes
+
+
+// Ternary Operator:  
+// The ternary operator is a shorthand way of writing an if...else statement. 
+// In React, it is mainly used to conditionally render JSX based on a condition.
+// Syntax : condition? True:False
+

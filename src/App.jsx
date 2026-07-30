@@ -1,9 +1,11 @@
+import Example1 from "./Forms/Example1";
 import Statemgm from "./StateManagement/Statemgm";
+import Ternary from "./TernaryOperator/Ternary";
 
 const App = () => {
   return (
     <div>
-      <Statemgm />
+      <Example1/>
     </div>
   );
 };
