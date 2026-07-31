@@ -158,3 +158,17 @@
 // In React, it is mainly used to conditionally render JSX based on a condition.
 // Syntax : condition? True:False
 
+
+// Forms:
+// A form in React is used to collect user input such as names, emails, passwords, and other data. 
+// React handles form data using state (useState) and updates it through event handlers like onChange and onSubmit.
+
+// Prop Drilling:
+// Prop drilling is passing props through multiple intermediate components to reach a nested child component,
+// even when those intermediate components don't use the props.
+
+// Avoiding Prop Drilling:
+// Prop drilling can be avoided by using the React Context 
+// API or state management libraries like Redux or Zustand.
+
+

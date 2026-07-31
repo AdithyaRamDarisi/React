@@ -1,3 +1,8 @@
+// Ternary Operator:  
+// The ternary operator is a shorthand way of writing an if...else statement. 
+// In React, it is mainly used to conditionally render JSX based on a condition.
+// Syntax : condition? True:False
+
 import React from 'react'
 import { useState } from 'react'
 import ComponentTwo from '../Components/Components2'
