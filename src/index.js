@@ -172,3 +172,7 @@
 // API or state management libraries like Redux or Zustand.
 
 
+// Context API:
+// Context API is a React feature that allows you to share data across multiple components without 
+// passing props manually through every intermediate component.
+
